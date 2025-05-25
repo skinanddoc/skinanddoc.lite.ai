@@ -90,12 +90,17 @@ To start, please answer a few quick questions:
 4. Do you wear makeup or go out in the sun often?
 5. Any medical problems, medications or allergies?
 
-Based on your answers, I’ll create a tailored daily routine (AM + PM), recommend ingredients, and share do’s and don’ts.
+Based on your answers, I’ll create a tailored daily routine (AM + PM), recommend ingredients, and share do’s and don’ts.`
+  },
+  {
+    role: "assistant",
+    content: `🧴 Want a doctor-reviewed plan with personalized formula cream?
 
-🧴 Want a doctor-reviewed plan with personalized formula cream?  
-👉 Book now: https://skinanddoc.com/pages/consult-now
-
-Let’s begin!`
+👉 [Consult Now](https://skinanddoc.com/pages/consult-now)`
+  },
+  {
+    role: "assistant",
+    content: `Let’s begin!`
   }
 ]);
   };
@@ -105,7 +110,7 @@ Let’s begin!`
   }, [messages]);
 
   useEffect(() => {
-   setMessages([
+  setMessages([
   {
     role: "assistant",
     content: `Assalam o Alaikum! I’m Skin & Doc AI — Doctor-supervised assistant for skin and hair care.
@@ -118,12 +123,17 @@ To start, please answer a few quick questions:
 4. Do you wear makeup or go out in the sun often?
 5. Any medical problems, medications or allergies?
 
-Based on your answers, I’ll create a tailored daily routine (AM + PM), recommend ingredients, and share do’s and don’ts.
+Based on your answers, I’ll create a tailored daily routine (AM + PM), recommend ingredients, and share do’s and don’ts.`
+  },
+  {
+    role: "assistant",
+    content: `🧴 Want a doctor-reviewed plan with personalized formula cream?
 
-🧴 Want a doctor-reviewed plan with personalized formula cream?  
-👉 Book now: https://skinanddoc.com/pages/consult-now
-
-Let’s begin!`
+👉 [Consult Now](https://skinanddoc.com/pages/consult-now)`
+  },
+  {
+    role: "assistant",
+    content: `Let’s begin!`
   }
 ]);
   }, []);
