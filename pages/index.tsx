@@ -93,7 +93,7 @@ To start, please answer a few quick questions:
 Based on your answers, I’ll create a tailored daily routine (AM + PM), recommend ingredients, and share do’s and don’ts.
 
 🧴 Want a doctor-reviewed plan with personalized formula cream?  
-👉 [Book now](https://skinanddoc.com/pages/consult-now)
+👉 Book now: https://skinanddoc.com/pages/consult-now
 
 Let’s begin!`
   }
@@ -121,7 +121,7 @@ To start, please answer a few quick questions:
 Based on your answers, I’ll create a tailored daily routine (AM + PM), recommend ingredients, and share do’s and don’ts.
 
 🧴 Want a doctor-reviewed plan with personalized formula cream?  
-👉 [Book now](https://skinanddoc.com/pages/consult-now)
+👉 Book now: https://skinanddoc.com/pages/consult-now
 
 Let’s begin!`
   }
