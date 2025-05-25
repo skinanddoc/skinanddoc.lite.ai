@@ -77,12 +77,27 @@ export default function Home() {
   };
 
   const handleReset = () => {
-    setMessages([
-      {
-        role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
-      }
-    ]);
+setMessages([
+  {
+    role: "assistant",
+    content: `Assalam o Alaikum! I’m Skin & Doc AI — Doctor-supervised assistant for skin and hair care.
+
+To start, please answer a few quick questions:
+
+1. What’s your age and gender?
+2. What is your skin/hair type? (e.g., oily, dry, sensitive, normal)
+3. What’s your main concern? (e.g., acne, melasma, pigmentation, hair fall, aging, glow, dandruff)
+4. Do you wear makeup or go out in the sun often?
+5. Any medical problems, medications or allergies?
+
+Based on your answers, I’ll create a tailored daily routine (AM + PM), recommend ingredients, and share do’s and don’ts.
+
+🧴 Want a doctor-reviewed plan with personalized formula cream?  
+👉 [Book now](https://skinanddoc.com/pages/consult-now)
+
+Let’s begin!`
+  }
+]);
   };
 
   useEffect(() => {
@@ -90,12 +105,27 @@ export default function Home() {
   }, [messages]);
 
   useEffect(() => {
-    setMessages([
-      {
-        role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
-      }
-    ]);
+   setMessages([
+  {
+    role: "assistant",
+    content: `Assalam o Alaikum! I’m Skin & Doc AI — Doctor-supervised assistant for skin and hair care.
+
+To start, please answer a few quick questions:
+
+1. What’s your age and gender?
+2. What is your skin/hair type? (e.g., oily, dry, sensitive, normal)
+3. What’s your main concern? (e.g., acne, melasma, pigmentation, hair fall, aging, glow, dandruff)
+4. Do you wear makeup or go out in the sun often?
+5. Any medical problems, medications or allergies?
+
+Based on your answers, I’ll create a tailored daily routine (AM + PM), recommend ingredients, and share do’s and don’ts.
+
+🧴 Want a doctor-reviewed plan with personalized formula cream?  
+👉 [Book now](https://skinanddoc.com/pages/consult-now)
+
+Let’s begin!`
+  }
+]);
   }, []);
 
   return (
